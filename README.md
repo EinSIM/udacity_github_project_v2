@@ -22,6 +22,10 @@ bikeshare_2_almi.py
 * os
 * dateime
 
+## Prerequisits
+Datafiles have to be in same directory as the programm file. Datafiles are not included 
+in this Github project
+
 ### Credits
 Thx to : https://github.com/udacity/pdsnd_github
 
