@@ -10,7 +10,8 @@ CITY_DATA = { 'chicago': 'chicago.csv',
               'washington': 'washington.csv' }
 
 
-CITIES = ('chicago', 'new york city', 'washington')
+# old no longer used variable
+# CITIES = ('chicago', 'new york city', 'washington')
 MONTHS = ('all', 'january', 'february', 'march', 'april', 'may', 'june', 'july')
 DAYS = ('all', 'monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday')
 
@@ -30,8 +31,10 @@ def get_filters():
 #    variable = input("Enter a number: ")
 
     lower_city = ''
-    while lower_city not in CITIES:
-        for mycity in CITIES: 
+#    while lower_city not in CITIES:ch
+#        for mycity in CITIES: 
+    while lower_city not in CITY_DATA.keys():
+        for mycity in CITY_DATA.keys():
             print(mycity)
         input_city = input('Enter a city : ')
         lower_city = input_city.lower()
