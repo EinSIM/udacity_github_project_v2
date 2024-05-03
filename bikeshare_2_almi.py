@@ -10,7 +10,8 @@ CITY_DATA = { 'chicago': 'chicago.csv',
               'washington': 'washington.csv' }
 
 
-CITIES = ('chicago', 'new york city', 'washington')
+# old no longer used variable
+# CITIES = ('chicago', 'new york city', 'washington')
 MONTHS = ('all', 'january', 'february', 'march', 'april', 'may', 'june', 'july')
 DAYS = ('all', 'monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday')
 
