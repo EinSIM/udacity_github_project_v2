@@ -15,6 +15,13 @@ Explore data related to bike share systems for three major cities in the United 
 ### Files used
 bikeshare_2_almi.py
 
+## Phyton Libaries used
+* pandas
+* numpy
+* time
+* os
+* dateime
+
 ### Credits
 Thx to : https://github.com/udacity/pdsnd_github
 
